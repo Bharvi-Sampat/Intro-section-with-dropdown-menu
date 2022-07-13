@@ -228,9 +228,21 @@ p {
   margin-bottom: 94px;
 }
 .footer-img :not(:last-child) {
-  padding-right: 29px;
+  padding-right: 28px;
   align-self: center;
 }
 .footer-img :not(:first-child) {
   align-self: center;
+}
+.footer-img__1 {
+  height: 15px;
+  width: 100px;
+}
+.footer-img__2 {
+  height: 26px;
+  width: 80px;
+}
+.footer-img__3 {
+  height: 15px;
+  width: 100px;
 }/*# sourceMappingURL=main.css.map */
