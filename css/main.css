@@ -235,8 +235,9 @@ p {
   align-self: center;
 }
 .footer-img__1 {
+  padding-left: 16px;
   height: 15px;
-  width: 100px;
+  width: 119px;
 }
 .footer-img__2 {
   height: 26px;
