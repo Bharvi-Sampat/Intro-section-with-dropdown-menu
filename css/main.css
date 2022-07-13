@@ -57,7 +57,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100%;
+  height: 100vh;
   width: 65vw;
   opacity: 1;
   visibility: hidden;
@@ -130,7 +130,16 @@
   text-align: center;
 }
 .nav .menu-nav .register {
-  padding: 10px;
+  padding: 10px 20vw 10px 20vw;
+  background: hsl(0deg, 0%, 98%);
+  color: hsl(0deg, 0%, 41%);
+  border: 2px solid hsl(0deg, 0%, 41%);
+  border-radius: 13px;
+  cursor: pointer;
+}
+.nav .menu-nav .register:hover {
+  color: hsl(0deg, 0%, 8%);
+  border: 2px solid hsl(0deg, 0%, 8%);
 }
 
 .fa-angle-down {
