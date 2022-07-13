@@ -228,7 +228,6 @@ p {
   margin-bottom: 94px;
 }
 .footer-img :not(:last-child) {
-  padding-right: 28px;
   align-self: center;
 }
 .footer-img :not(:first-child) {
@@ -236,14 +235,17 @@ p {
 }
 .footer-img__1 {
   padding-left: 16px;
+  padding-right: 20px;
   height: 15px;
-  width: 119px;
+  width: 115px;
 }
 .footer-img__2 {
+  padding-right: 20px;
   height: 26px;
   width: 80px;
 }
 .footer-img__3 {
+  padding-right: 20px;
   height: 15px;
   width: 100px;
 }/*# sourceMappingURL=main.css.map */
