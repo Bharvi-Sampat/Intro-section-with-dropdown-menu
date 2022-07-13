@@ -5,6 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/main.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+
     <title>Document</title>
   </head>
   <body>
@@ -13,26 +18,35 @@
         <span class="menu-btn__burger"></span>
       </div>
       <img class="logo" src="images/logo.svg" />
+
       <nav class="nav">
+        <div class="overlay"></div>
         <div class="menu-nav">
           <ul>
             <li class="menu-nav__item">
-              <a href="#" class="menu-nav__link">Features</a>
+              <a href="#" class="menu-nav__link menu-nav__features"
+                >Features<i class="fa fa-angle-down"></i
+              ></a>
             </li>
-            <li class="menu-nav__item active nohover">
-              <a href="#" class="menu-nav__link">Company</a>
+            <li class="menu-nav__item">
+              <a href="#" class="menu-nav__link"
+                >Company<i class="fa fa-angle-down"></i
+              ></a>
             </li>
-            <li class="menu-nav__item active nohover">
+            <li class="menu-nav__item">
               <a href="#" class="menu-nav__link">Careers</a>
             </li>
-            <li class="menu-nav__item active nohover">
+            <li class="menu-nav__item">
               <a href="#" class="menu-nav__link">About</a>
             </li>
-            <li class="menu-nav__item active nohover">
+            <li class="menu-nav__item menu-nav__center-link">
               <a href="#" class="menu-nav__link">Login</a>
             </li>
-
-            <button href="#" class="register">Register</button>
+            <div class="center-button">
+              <button href="#" class="register menu-nav__center-link">
+                Register
+              </button>
+            </div>
           </ul>
         </div>
       </nav>
