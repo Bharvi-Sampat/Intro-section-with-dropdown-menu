@@ -57,7 +57,7 @@
   position: fixed;
   top: 0;
   right: 0;
-  height: 100vh;
+  height: 100%;
   width: 65vw;
   opacity: 1;
   visibility: hidden;
@@ -183,11 +183,8 @@ p {
   font-weight: 500;
 }
 
-.landing__img {
-  background: url(/images/image-hero-mobile.png) no-repeat;
+.landing-img {
   width: 100%;
-  height: 300px;
-  background-size: cover;
 }
 
 .section__intro {
@@ -220,32 +217,4 @@ p {
   background: hsl(0deg, 0%, 98%);
   color: hsl(0deg, 0%, 8%);
   transition: all 0.3s ease-in-out;
-}
-
-.footer-img {
-  display: flex;
-  margin-top: 48px;
-  margin-bottom: 94px;
-}
-.footer-img :not(:last-child) {
-  align-self: center;
-}
-.footer-img :not(:first-child) {
-  align-self: center;
-}
-.footer-img__1 {
-  padding-left: 16px;
-  padding-right: 20px;
-  height: 15px;
-  width: 115px;
-}
-.footer-img__2 {
-  padding-right: 20px;
-  height: 26px;
-  width: 80px;
-}
-.footer-img__3 {
-  padding-right: 20px;
-  height: 15px;
-  width: 100px;
 }/*# sourceMappingURL=main.css.map */
